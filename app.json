@@ -18,11 +18,13 @@
     "ios": {
       "supportsTablet": true
     },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+   "android": {
+  "package": "com.yourname.wallpaperapp",
+  "adaptiveIcon": {
+    "foregroundImage": "./assets/images/adaptive-icon.png",
+    "backgroundColor": "#ffffff"
+  }
+}
     },
     "web": {
       "bundler": "metro",
@@ -36,4 +38,4 @@
       "typedRoutes": true
     }
   }
-}
+
